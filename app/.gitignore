@@ -1,0 +1,4 @@
+/build
+/src/androidTest/java/com/code19/toolkit/
+!/src/test/java/com/code19/toolkit/
+!/build/
