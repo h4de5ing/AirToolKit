@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:orientation="vertical">
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <com.github.ivbaranov.mli.MaterialLetterIcon
+        android:id="@+id/mli_icon"
+        android:layout_width="@dimen/letter_icon_size"
+        android:layout_height="@dimen/letter_icon_size"
+        app:mli_initials="false"
+        app:mli_initials_number="2"
+        app:mli_letter="文"
+        app:mli_letter_color="@android:color/white"
+        app:mli_letter_size="26"
+        app:mli_letters_number="1"
+        app:mli_shape_color="@color/colorPrimary"
+        app:mli_shape_type="circle"/>
 
     <TextView
         android:id="@+id/tv_tool"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawablePadding="5dp"
-        android:drawableTop="@mipmap/ic_launcher"
         android:gravity="center"
-        android:padding="5dp"
+        android:paddingTop="10dp"
         android:text="工具"/>
 </LinearLayout>

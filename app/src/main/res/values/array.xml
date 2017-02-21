@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="tab_nav">
+        <item>分享APK</item>
         <item>文件管理</item>
         <item>录制屏幕</item>
         <item>相册备份</item>
