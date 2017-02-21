@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AirToolKit</string>
     <string name="share_apk">分享APK</string>
+    <string name="loading">加载中&#8230;</string>
 </resources>

@@ -41,7 +41,7 @@ public abstract class BaseRecyclerViewAdapter<T> extends RecyclerView.Adapter<Re
         onBindItem(holder, position, datalist.get(position));
     }
 
-    public void onBindItem(RecyclerView.ViewHolder holder, int postion, T item) {
+    public void onBindItem(RecyclerView.ViewHolder holder, int position, T item) {
     }
 
     @Override
